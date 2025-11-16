@@ -15,7 +15,7 @@ pipeline {
             steps {
                 echo "Pulling code from GitHub..."
                 git(
-                    url: 'https://github.com/raghu-kadali/php-app.git',
+                    url: 'https://github.com/Gowtham0928/php-demo1.git',
                     branch: 'main'
                 )
             }
